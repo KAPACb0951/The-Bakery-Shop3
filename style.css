@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    background-image: linear-gradient(60deg, black, transparent), url(https://images.aif.by/007/863/19b76edb93ac281f1d35169bff2f74f8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    padding-bottom: 200px;
+    padding: 20px;
+}
+
+.link {
+    margin: 0 50px;
+    color: white;
+    transition: 0.5s;
+}
+
+.link:hover{
+    color: #819B57;
+}
+
+.header-link {
+    font-size: 20px;
+
+}
+
+.conteiner {
+    margin: 20px 40px 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article {
+    border: 2px solid;
+    width: 300px;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width: 400px;
+    margin: 20px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.div:first-child {
+    padding: 15px;
+    height: 81px;
+}
+
+.p {
+    width: 500px;
+
+}
+
+.eae {
+    width: 600px;
+}
+
+.SashaLox {
+    margin-top: 200px;
+}
+h2{
+    text-align: center;
+}
+.Sashalox{
+    opacity: 0;
+    transition: 5s;
+}
+.Sashalox:hover{
+    opacity: 1;
+}
+.sashaLox{
+    border: 2px solid;
+    border-radius: 20px; 
+    width: 245px;
+    padding: 10px 5px 10px 20px;
+}
+.sashaLox a{
+    background-color: #513C2F;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #513C2F;
+    padding: 20px;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
